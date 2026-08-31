@@ -2,7 +2,7 @@
 
 Maintain AGENTS.md is a Codex skill for creating and maintaining repository-level and nested `AGENTS.md` files.
 
-It creates domain-scoped AGENT.md files that help AI agents orient themselves in a project. Each file contains only the rules that change an agent's behavior in that scope, then point to the code, tests, contracts, runbooks, and documentation that hold the deeper truth.
+It creates domain-scoped AGENT.md files that help AI agents orient themselves in a project. Each file contains only the rules that change an agent's behavior in that scope, then point to the code, tests, contracts, runbooks, and documentation.
 
 ## What it does
 
