@@ -30,7 +30,7 @@ git clone https://github.com/evgenylazarenko/maintain-agents-md.git ~/.codex/ski
 ```
 
 ## How to use (examples)
-Simply ask Codex to use the skill. Some example:
+Simply ask Codex to use the skill. Some examples:
 
 ### Initial setup
 ```text
