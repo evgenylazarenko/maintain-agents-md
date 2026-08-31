@@ -2,7 +2,7 @@
 
 Maintain AGENTS.md is a Codex skill for creating and maintaining repository-level and nested `AGENTS.md` files.
 
-It treats agent instructions as maps, not encyclopedias. Each file should contain only the rules that change an agent's behavior in that scope, then point to the code, tests, contracts, runbooks, and documentation that hold the deeper truth.
+It creates domain-scoped AGENT.md files that help AI agents orient themselves in a project. Each file contains only the rules that change an agent's behavior in that scope, then point to the code, tests, contracts, runbooks, and documentation that hold the deeper truth.
 
 ## What it does
 
@@ -29,10 +29,17 @@ Or clone the repository into your Codex skills directory:
 git clone https://github.com/evgenylazarenko/maintain-agents-md.git ~/.codex/skills/maintain-agents-md
 ```
 
-Then ask Codex to use the skill, for example:
+## How to use (examples)
+Simply ask Codex to use the skill. Some example:
 
+### Initial setup
 ```text
 Use $maintain-agents-md to audit and update this repository's AGENTS.md files.
+```
+
+### Continuous refinement
+```text
+When done with your current task and prior to committing changes, use $maintain-agents-md to update the AGENT.md files in the parts of the repo that you touched.
 ```
 
 ## What's included
