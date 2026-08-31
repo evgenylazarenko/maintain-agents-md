@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain AGENTS.md"
+  short_description: "Create and audit nested agent instructions"
+  default_prompt: "Use $maintain-agents-md to draft and audit nested AGENTS.md guidance for this repo."
